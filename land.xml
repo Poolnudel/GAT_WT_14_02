@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE laender [
+<!ELEMENT land (landname,flaeche,hauptstadt,praesident,einwohner,webseit)>
+<!ELEMENT landname (#PCDATA)>
+<!ELEMENT flaeche (#PCDATA)>
+<!ELEMENT hauptstadt (#PCDATA)>
+<!ELEMENT praesident (#PCDATA)>
+<!ELEMENT einwohner (#PCDATA)>
+<!ELEMENT einwohnerdichte (#PCDATA)>
+<!ELEMENT webseit (#PCDATA)>
+]>
+<?xsl-stylesheet type="text/xsl" href="style.xsl"?>
+<laender>
+    <land>
+        <landname>
+            Nordrhein-Westfalen
+        </landname>
+        <flaeche einheit="km²">
+            34.098
+        </flaeche>
+        <hauptstadt>
+            Düsseldorf
+        </hauptstadt>
+        <praesident>
+            Hendrik Wüst (CDU)
+        </praesident>
+        <einwohner>
+            17.925.570
+        </einwohner>
+        <einwohnerdichte>
+            526
+        </einwohnerdichte>
+        <webseit>
+            https://www.land.nrw/
+        </webseit>
+    </land>
+    <land>
+        <landname>
+            Niedersachsen
+        </landname>
+        <flaeche einheit="km²">
+            47.614
+        </flaeche>
+        <hauptstadt>
+            Hannover
+        </hauptstadt>
+        <praesident>
+            Stephan Weil (SPD)
+        </praesident>
+        <einwohner>
+            8.003.421
+        </einwohner>
+        <einwohnerdichte>
+            168
+        </einwohnerdichte>
+        <webseit>
+            https://www.niedersachsen.de/
+        </webseit>
+    </land>
+    <land>
+        <landname>
+            Hessen
+        </landname>
+        <flaeche einheit="km²">
+            21.114
+        </flaeche>
+        <hauptstadt>
+            Wiesbaden
+        </hauptstadt>
+        <praesident>
+            Volker Bouffier (CDU)
+        </praesident>
+        <einwohner>
+            6.293.154
+        </einwohner>
+        <einwohnerdichte>
+            298
+        </einwohnerdichte>
+        <webseit>
+            https://www.hessen.de/
+        </webseit>
+    </land>
+    <land>
+        <landname>
+            Rheinland-Pfalz
+        </landname>
+        <flaeche einheit="km²">
+            19.854
+        </flaeche>
+        <hauptstadt>
+            Mainz
+        </hauptstadt>
+        <praesident>
+            Malu Dreyer (SPD)
+        </praesident>
+        <einwohner>
+            4.098.391
+        </einwohner>
+        <einwohnerdichte>
+            206
+        </einwohnerdichte>
+        <webseit>
+            https://www.rlp.de/de/startseite/
+        </webseit>
+    </land>
+</laender>
